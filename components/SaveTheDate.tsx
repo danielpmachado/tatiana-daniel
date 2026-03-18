@@ -11,7 +11,7 @@ export default function SaveTheDate() {
       />
       <div className="absolute inset-0 bg-[#3A3328]/40" />
       <div className="relative z-10 bg-[#EDE8DD]/92 px-12 py-12 text-center max-w-xs w-full mx-4">
-        <span className="label">Mark your calendar</span>
+        <span className="label">Marque na agenda</span>
         <h2
           style={{
             fontFamily: "var(--font-serif)",
@@ -23,7 +23,7 @@ export default function SaveTheDate() {
             lineHeight: 1,
           }}
         >
-          Save the Date!
+          Guarde a Data!
         </h2>
         <div className="section-divider" />
         <p
@@ -42,10 +42,10 @@ export default function SaveTheDate() {
           <br />
           Quinta dos Castanheiros
           <br />
-          Reception from 14:00
+          Receção a partir das 14:00
           <br />
           <br />
-          <strong style={{ letterSpacing: "0.3em" }}>4 · June · 2026</strong>
+          <strong style={{ letterSpacing: "0.3em" }}>4 · Junho · 2026</strong>
         </p>
         <p
           style={{

@@ -19,16 +19,16 @@ export default function SheSaidYes() {
         </div>
         {/* Text */}
         <div>
-          <span className="label">Our Story</span>
+          <span className="label">A Nossa História</span>
           <h2 style={{fontFamily:'var(--font-serif)', fontStyle:'italic', fontWeight:300, fontSize:'clamp(2.5rem,5vw,3.5rem)', color:'#3A3328', lineHeight:1, marginBottom:'1.25rem'}}>
-            She Said Yes!
+            Ela Disse Sim!
           </h2>
           <div className="section-divider" style={{margin:'0 0 1.5rem'}} />
           <p style={{fontSize:'0.85rem', lineHeight:1.8, color:'#5C5248', marginBottom:'1rem'}}>
-            Some stories begin quietly — a shared glance, an unexpected conversation, a moment that neither of you planned but neither of you will ever forget. Tatiana and Daniel&apos;s story is one of those.
+            Algumas histórias começam em silêncio — um olhar partilhado, uma conversa inesperada, um momento que nenhum dos dois planeou mas que nenhum dos dois vai alguma vez esquecer. A história de Tatiana e Daniel é assim.
           </p>
           <p style={{fontSize:'0.85rem', lineHeight:1.8, color:'#5C5248'}}>
-            Through seasons and sunsets, through ordinary days that somehow felt extraordinary, they found in each other a home. On the 4th of June, they will say it in front of everyone they love.
+            Entre estações e pores do sol, entre dias comuns que pareciam extraordinários, encontraram um no outro um lar. No dia 4 de Junho, dirão isso diante de todos aqueles que amam.
           </p>
         </div>
       </div>

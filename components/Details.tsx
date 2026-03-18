@@ -2,16 +2,16 @@
 import { useState } from 'react'
 
 const faqs = [
-  { q: 'Is the wedding outdoor or indoor?',
-    a: 'The ceremony takes place at Igreja dos Matos da Ranha. The reception, dinner, and dancing are hosted outdoors at Quinta dos Castanheiros, weather permitting.' },
-  { q: 'Are children welcome at the wedding?',
-    a: 'We love your little ones! Children are warmly welcome. Please indicate the number of children on your RSVP.' },
-  { q: 'Is there a shuttle from the hotel?',
-    a: 'Yes — a complimentary shuttle will run between the recommended hotels and the venue. Timings will be confirmed closer to the date.' },
-  { q: 'What time does the celebration end?',
-    a: 'We plan to dance until the early hours! The last shuttle departs at 03:00.' },
-  { q: 'Can I take photos during the ceremony?',
-    a: 'We kindly ask guests to remain unplugged during the ceremony. Our photographer will capture every moment.' },
+  { q: 'O casamento é ao ar livre ou em interior?',
+    a: 'A cerimónia realiza-se na Igreja dos Matos da Ranha. A receção, o jantar e a festa decorrem ao ar livre na Quinta dos Castanheiros, sujeito às condições meteorológicas.' },
+  { q: 'As crianças são bem-vindas?',
+    a: 'Adoramos os vossos pequeninos! As crianças são muito bem-vindas. Por favor indiquem o número de crianças no RSVP.' },
+  { q: 'Existe transporte desde o hotel?',
+    a: 'Sim — haverá um shuttle gratuito entre os hotéis recomendados e o espaço. Os horários serão confirmados com mais proximidade da data.' },
+  { q: 'A que horas termina a festa?',
+    a: 'Planeamos dançar até de madrugada! O último shuttle parte às 03:00.' },
+  { q: 'Posso tirar fotografias durante a cerimónia?',
+    a: 'Pedimos aos convidados que se mantenham desligados dos telemóveis durante a cerimónia. O nosso fotógrafo irá capturar cada momento.' },
 ]
 
 export default function Details() {
@@ -21,7 +21,7 @@ export default function Details() {
       <div className="max-w-3xl mx-auto">
         <span className="label" style={{color:'rgba(237,232,221,0.45)', textAlign:'center', display:'block'}}>FAQ</span>
         <h2 style={{fontFamily:'var(--font-serif)', fontStyle:'italic', fontWeight:300, fontSize:'clamp(2rem,4vw,3rem)', color:'#EDE8DD', marginBottom:'2.5rem', textAlign:'center', lineHeight:1}}>
-          Details
+          Detalhes
         </h2>
         {faqs.map(({ q, a }, i) => (
           <div key={i} style={{borderBottom:'1px solid rgba(237,232,221,0.15)'}}>

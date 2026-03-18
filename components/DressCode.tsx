@@ -1,9 +1,9 @@
 import Image from 'next/image'
 
 const swatches = [
-  { label: 'Ivory', hex: '#EDE8DD', bordered: true },
-  { label: 'Sand', hex: '#D4C9B0' },
-  { label: 'Olive', hex: '#6B6B3A' },
+  { label: 'Marfim', hex: '#EDE8DD', bordered: true },
+  { label: 'Areia', hex: '#D4C9B0' },
+  { label: 'Azeitona', hex: '#6B6B3A' },
   { label: 'Taupe', hex: '#8A7A55' },
   { label: 'Espresso', hex: '#3A3328' },
 ]
@@ -29,14 +29,14 @@ export default function DressCode() {
         <div>
           <span className="label">Dress Code</span>
           <h2 style={{fontFamily:'var(--font-serif)', fontStyle:'italic', fontWeight:300, fontSize:'clamp(2.5rem,5vw,3.5rem)', color:'#3A3328', lineHeight:1, marginBottom:'1.25rem'}}>
-            Smart Formal
+            Elegante Formal
           </h2>
           <div className="section-divider" style={{margin:'0 0 1.5rem'}} />
           <p style={{fontSize:'0.85rem', lineHeight:1.8, color:'#5C5248', marginBottom:'0.75rem'}}>
-            The wedding theme is <em style={{fontFamily:'var(--font-serif)', fontStyle:'italic'}}>natural</em>. We&apos;d love for our guests to dress in elegant summer attire — flowing dresses, linen suits, and soft neutrals.
+            O tema do casamento é <em style={{fontFamily:'var(--font-serif)', fontStyle:'italic'}}>natural</em>. Gostaríamos que os convidados optassem por trajes elegantes de verão — vestidos fluidos, fatos de linho e tons neutros suaves.
           </p>
           <p style={{fontSize:'0.85rem', lineHeight:1.8, color:'#5C5248', marginBottom:'1.5rem'}}>
-            Please avoid white and ivory out of respect for the bride. Our colour palette leans into warm neutrals and soft botanicals.
+            Por favor evitem branco e marfim, por respeito à noiva. A nossa paleta de cores assenta em tons neutros quentes e botânicos suaves.
           </p>
           <div style={{display:'flex', gap:'1.25rem', alignItems:'flex-end'}}>
             {swatches.map(({ label, hex, bordered }) => (

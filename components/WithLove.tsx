@@ -15,7 +15,7 @@ export default function WithLove() {
       </div>
       <div className="text-center">
         <span className="label" style={{ color: "rgba(237,232,221,0.35)" }}>
-          With Love
+          Com Amor
         </span>
         <h2
           style={{
@@ -38,7 +38,7 @@ export default function WithLove() {
             color: "rgba(237,232,221,0.4)",
           }}
         >
-          4 · June · 2026 · Pombal, Leiria
+          4 · Junho · 2026 · Pombal, Leiria
         </p>
       </div>
       <div

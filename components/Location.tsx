@@ -10,13 +10,13 @@ export default function Location() {
       />
       <div className="absolute inset-0 bg-[#3A3328]/30" />
       <div className="relative z-10 bg-[#EDE8DD]/92 px-10 py-12 text-center max-w-sm w-full mx-4">
-        <span className="label">Location</span>
+        <span className="label">Local</span>
         <h2 style={{fontFamily:'var(--font-serif)', fontStyle:'italic', fontWeight:300, fontSize:'1.75rem', color:'#3A3328', marginBottom:'1rem', lineHeight:1.1}}>
           Quinta dos Castanheiros
         </h2>
         <div className="section-divider" />
         <p style={{fontSize:'0.75rem', lineHeight:1.9, color:'#5C5248', marginBottom:'1.25rem'}}>
-          Nestled in the heart of Pombal, Leiria, our venue is a beautifully restored Portuguese quinta surrounded by chestnut groves and rolling countryside.
+          Situada no coração de Pombal, Leiria, a nossa quinta é uma bela quinta portuguesa restaurada, rodeada por soutos e campos verdejantes.
         </p>
         <p style={{fontSize:'0.6rem', textTransform:'uppercase', letterSpacing:'0.2em', color:'#8A7A55', marginBottom:'1.5rem', lineHeight:2}}>
           Pombal · Leiria · Portugal
@@ -27,7 +27,7 @@ export default function Location() {
           style={{display:'inline-block', border:'1px solid #8A7A55', padding:'0.6rem 1.75rem', fontSize:'0.6rem', textTransform:'uppercase', letterSpacing:'0.2em', color:'#8A7A55', transition:'all 0.2s'}}
           className="hover:bg-[#8A7A55] hover:text-[#EDE8DD]"
         >
-          View on Map
+          Ver no Mapa
         </a>
       </div>
     </section>

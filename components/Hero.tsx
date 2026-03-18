@@ -53,7 +53,7 @@ export default function Hero() {
             color: "rgba(255,255,255,0.55)",
           }}
         >
-          4 · June · 2026 &nbsp;·&nbsp; Pombal, Leiria
+          4 · Junho · 2026 &nbsp;·&nbsp; Pombal, Leiria
         </p>
       </div>
     </section>

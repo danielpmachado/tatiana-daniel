@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 const links = [
   { label: "RSVP", href: "#rsvp" },
   { label: "Info", href: "#details" },
-  { label: "Location", href: "#location" },
+  { label: "Local", href: "#location" },
 ];
 
 export default function Nav() {

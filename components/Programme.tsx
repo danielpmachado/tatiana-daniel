@@ -1,7 +1,7 @@
 const events = [
   {
     time: '12:00',
-    name: 'Church Ceremony',
+    name: 'Cerimónia na Igreja',
     venue: 'Igreja dos Matos da Ranha',
     icon: (
       <svg viewBox="0 0 48 48" fill="none" className="w-12 h-12">
@@ -13,7 +13,7 @@ const events = [
   },
   {
     time: '14:00',
-    name: 'Cocktail Hour',
+    name: 'Cocktail',
     venue: 'Quinta dos Castanheiros',
     icon: (
       <svg viewBox="0 0 48 48" fill="none" className="w-12 h-12">
@@ -26,8 +26,8 @@ const events = [
   },
   {
     time: '15:30',
-    name: 'Dinner',
-    venue: 'Seated dinner & toasts',
+    name: 'Jantar',
+    venue: 'Jantar sentado & brindes',
     icon: (
       <svg viewBox="0 0 48 48" fill="none" className="w-12 h-12">
         <circle cx="24" cy="26" r="10" stroke="rgba(237,232,221,.65)" strokeWidth="1.2" />
@@ -39,8 +39,8 @@ const events = [
   },
   {
     time: '20:00',
-    name: 'Party Time',
-    venue: 'Live music & dancing',
+    name: 'Festa',
+    venue: 'Música ao vivo & dança',
     icon: (
       <svg viewBox="0 0 48 48" fill="none" className="w-12 h-12">
         <circle cx="24" cy="24" r="10" stroke="rgba(237,232,221,.65)" strokeWidth="1.2" />
@@ -54,9 +54,9 @@ const events = [
 export default function Programme() {
   return (
     <section className="bg-[#6B6B3A] py-16 px-8 text-center">
-      <span className="label" style={{color:'rgba(237,232,221,0.5)'}}>Wedding Day</span>
+      <span className="label" style={{color:'rgba(237,232,221,0.5)'}}>Dia do Casamento</span>
       <h2 style={{fontFamily:'var(--font-serif)', fontStyle:'italic', fontWeight:300, fontSize:'clamp(2rem,4vw,3rem)', color:'#EDE8DD', marginBottom:'3rem', lineHeight:1}}>
-        The Programme
+        O Programa
       </h2>
       <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-10">
         {events.map(({ time, name, venue, icon }) => (
