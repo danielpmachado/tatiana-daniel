@@ -1,26 +1,49 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-ivory: #EDE8DD;
+  --color-cream: #F5F0E8;
+  --color-sand: #D4C9B0;
+  --color-taupe: #C8BC9A;
+  --color-olive: #6B6B3A;
+  --color-olive-dark: #3A3328;
+  --color-muted: #8A7A55;
+  --color-warm: #5C5248;
+  --color-border: #C8BC9A;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Jost', system-ui, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { background-color: var(--color-ivory); color: var(--color-olive-dark); font-family: var(--font-sans); }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer components {
+  .label {
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: var(--color-muted);
+    display: block;
+    margin-bottom: 0.75rem;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  .display {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1;
+  }
+  .polaroid {
+    background: white;
+    padding: 10px;
+    padding-bottom: 28px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+  }
+  .section-divider {
+    width: 40px;
+    height: 1px;
+    background: var(--color-border);
+    margin: 0 auto 1.5rem;
+  }
 }
