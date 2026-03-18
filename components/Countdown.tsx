@@ -27,17 +27,65 @@ export default function Countdown() {
     { label: 'Seconds', value: String(t.s).padStart(2, '0') },
   ]
   return (
-    <section className="bg-[#EDE8DD] py-20 px-8 text-center">
+    <section className="bg-[#EDE8DD] py-16 px-4 md:py-20 md:px-8 text-center">
       <span className="label">The big day is getting closer</span>
-      <h2 style={{fontFamily:'var(--font-serif)', fontStyle:'italic', fontWeight:300, fontSize:'clamp(1.75rem,3.5vw,2.5rem)', color:'#3A3328', marginBottom:'3rem', lineHeight:1}}>
+      <h2
+        style={{
+          fontFamily: "var(--font-serif)",
+          fontStyle: "italic",
+          fontWeight: 300,
+          // Keep title readable but slightly smaller on mobile
+          fontSize: "clamp(1.5rem,4.5vw,2.5rem)",
+          color: "#3A3328",
+          marginBottom: "3rem",
+          lineHeight: 1,
+        }}
+      >
         Counting down the days&hellip;
       </h2>
-      <div className="max-w-2xl mx-auto" style={{border:'1px solid #C8BC9A', padding:'2.5rem 2rem'}}>
+      <div
+        className="max-w-2xl mx-auto"
+        style={{
+          border: "1px solid #C8BC9A",
+          // Responsive padding so the 4 counters can fit on mobile
+          padding: "clamp(1.5rem,4vw,2.5rem) clamp(1rem,3vw,2rem)",
+        }}
+      >
         <div className="flex justify-center" style={{borderColor:'#C8BC9A'}}>
           {units.map(({ label, value }, i) => (
-            <div key={label} style={{padding:'0 2.5rem', borderRight: i < units.length - 1 ? '1px solid #C8BC9A' : undefined}}>
-              <p style={{fontFamily:'var(--font-serif)', fontSize:'clamp(2.5rem,6vw,4rem)', fontWeight:300, color:'#3A3328', fontVariantNumeric:'tabular-nums', lineHeight:1}}>{value}</p>
-              <p style={{fontSize:'0.55rem', textTransform:'uppercase', letterSpacing:'0.22em', color:'#8A7A55', marginTop:'0.5rem'}}>{label}</p>
+            <div
+              key={label}
+              style={{
+                // Responsive horizontal padding so each unit stays inside the row on mobile
+                padding: "0 clamp(0.5rem, 2.2vw, 2rem)",
+                borderRight:
+                  i < units.length - 1 ? "1px solid #C8BC9A" : undefined,
+              }}
+            >
+              <p
+                style={{
+                  fontFamily: "var(--font-serif)",
+                  // Smaller min value to avoid overflowing on phones
+                  fontSize: "clamp(1.6rem, 7vw, 3rem)",
+                  fontWeight: 300,
+                  color: "#3A3328",
+                  fontVariantNumeric: "tabular-nums",
+                  lineHeight: 1,
+                }}
+              >
+                {value}
+              </p>
+              <p
+                style={{
+                  fontSize: "clamp(0.45rem, 1.7vw, 0.55rem)",
+                  textTransform: "uppercase",
+                  letterSpacing: "0.22em",
+                  color: "#8A7A55",
+                  marginTop: "0.5rem",
+                }}
+              >
+                {label}
+              </p>
             </div>
           ))}
         </div>

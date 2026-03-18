@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Abramo Script';
+  src: url('/fonts/abramo/Abramo Script.woff2') format('woff2'),
+       url('/fonts/abramo/Abramo Script.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --color-ivory: #EDE8DD;
   --color-cream: #F5F0E8;
@@ -11,6 +20,7 @@
   --color-warm: #5C5248;
   --color-border: #C8BC9A;
   --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-script: 'Abramo Script', Georgia, serif;
   --font-sans: 'Jost', system-ui, sans-serif;
 }
 
