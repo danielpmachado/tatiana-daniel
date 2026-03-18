@@ -18,18 +18,26 @@ const jost = Jost({
 })
 
 export const metadata: Metadata = {
-  title: 'Tatiana & Daniel · 4 June 2026',
-  description: 'Join us to celebrate the wedding of Tatiana and Daniel at Quinta dos Castanheiros, Pombal.',
+  title: 'Tatiana & Daniel · 4 de Junho de 2026',
+  description: 'Junte-se a nós para celebrar o casamento de Tatiana e Daniel na Quinta dos Castanheiros, Pombal.',
+  icons: {
+    icon: [
+      { url: '/images/favicon/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/images/favicon/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/images/favicon/favicon.ico' },
+    ],
+    apple: '/images/favicon/apple-touch-icon.png',
+  },
   openGraph: {
-    title: 'Tatiana & Daniel · 4 June 2026',
-    description: 'You are warmly invited to our wedding in Pombal, Leiria.',
+    title: 'Tatiana & Daniel · 4 de Junho de 2026',
+    description: 'Estão cordialmente convidados para o nosso casamento em Pombal, Leiria.',
     type: 'website',
   },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${jost.variable}`}>
+    <html lang="pt" className={`${cormorant.variable} ${jost.variable}`}>
       <body>{children}</body>
     </html>
   )
