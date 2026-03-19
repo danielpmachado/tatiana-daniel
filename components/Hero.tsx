@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative h-dvh min-h-[640px] flex items-end overflow-hidden"
+      className="relative h-lvh min-h-[640px] flex items-end overflow-hidden"
     >
       <Image
         src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&q=90"
