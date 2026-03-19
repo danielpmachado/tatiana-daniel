@@ -24,6 +24,10 @@ const abramo = localFont({
   display: "swap",
 });
 
+export const viewport = {
+  viewportFit: "cover",
+};
+
 export const metadata: Metadata = {
   title: "Tatiana & Daniel · 4 de Junho de 2026",
   description:

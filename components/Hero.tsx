@@ -14,7 +14,7 @@ export default function Hero() {
         className="object-cover object-center"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/30 to-black/75" />
-      <div className="relative z-10 w-full px-10 pb-16 md:px-20 md:pb-24">
+      <div className="relative z-10 w-full px-10 md:px-20 hero-pb">
         <h1
           style={{
             fontFamily: "var(--font-script)",
