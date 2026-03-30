@@ -1,5 +1,19 @@
 const events = [
   {
+    time: '10:30',
+    name: 'Pequeno Almoço',
+    venue: 'Quinta dos Castanheiros',
+    icon: (
+      <svg viewBox="0 0 48 48" fill="none" className="w-12 h-12">
+        <path d="M14 28 Q14 36 24 36 Q34 36 34 28 L14 28 Z" stroke="rgba(237,232,221,.65)" strokeWidth="1.2" />
+        <path d="M34 22 Q40 22 40 27 Q40 32 34 32" stroke="rgba(237,232,221,.65)" strokeWidth="1.2" />
+        <line x1="24" y1="14" x2="24" y2="20" stroke="rgba(237,232,221,.65)" strokeWidth="1.2" />
+        <line x1="19" y1="15" x2="19" y2="20" stroke="rgba(237,232,221,.65)" strokeWidth="1.2" />
+        <line x1="29" y1="15" x2="29" y2="20" stroke="rgba(237,232,221,.65)" strokeWidth="1.2" />
+      </svg>
+    ),
+  },
+  {
     time: '12:00',
     name: 'Cerimónia na Igreja',
     venue: 'Igreja dos Matos da Ranha',
@@ -58,7 +72,7 @@ export default function Programme() {
       <h2 style={{fontFamily:'var(--font-serif)', fontStyle:'italic', fontWeight:300, fontSize:'clamp(2rem,4vw,3rem)', color:'#EDE8DD', marginBottom:'3rem', lineHeight:1}}>
         O Programa
       </h2>
-      <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-10">
+      <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-5 gap-10">
         {events.map(({ time, name, venue, icon }) => (
           <div key={name} className="flex flex-col items-center gap-3">
             {icon}
