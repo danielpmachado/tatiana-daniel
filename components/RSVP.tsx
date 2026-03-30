@@ -122,7 +122,10 @@ export default function RSVP() {
                 className="placeholder:text-[#8A7A55]/60 focus:border-[#6B6B3A] transition-colors"
               />
             ))}
-            <div className="flex flex-col gap-2 md:flex-row md:gap-6" style={{ padding: "0.25rem 0" }}>
+            <div
+              className="flex flex-col gap-2 md:flex-row md:gap-6"
+              style={{ padding: "0.25rem 0" }}
+            >
               {["Podem contar comigo!", "Infelizmente não posso ir"].map(
                 (opt) => (
                   <label
@@ -340,7 +343,8 @@ export default function RSVP() {
       </div>
       <div className="relative w-full min-h-[320px] aspect-[4/3] md:aspect-auto md:min-h-[500px]">
         <Image
-          src="/tatiana-daniel/images/assets/cover.jpg"
+          // src="/tatiana-daniel/images/assets/Quinta-dos-Morgatoes-11-scaled.jpg"
+          src="/tatiana-daniel/images/assets/quinta-dos-castanheiros-48.jpg"
           //src="https://images.unsplash.com/photo-1460978812857-470ed1c77af0?w=900&q=80"
           alt="Rings"
           fill

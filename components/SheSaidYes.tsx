@@ -7,7 +7,7 @@ export default function SheSaidYes() {
         {/* Polaroids */}
         <div className="relative flex justify-center items-center h-72 md:h-80">
           <div
-            className="polaroid absolute left-4 top-0 w-44 z-10"
+            className="polaroid absolute left-4 top-0 w-50 z-10"
             style={{ transform: "rotate(-6deg)" }}
           >
             <div className="relative w-full aspect-[4/3] overflow-hidden bg-[#D4C9B0]">
@@ -21,7 +21,7 @@ export default function SheSaidYes() {
             </div>
           </div>
           <div
-            className="polaroid absolute right-4 bottom-0 w-44 z-20"
+            className="polaroid absolute right-4 bottom-0 w-50 z-20"
             style={{ transform: "rotate(4deg)" }}
           >
             <div className="relative w-full aspect-[4/3] overflow-hidden bg-[#D4C9B0]">

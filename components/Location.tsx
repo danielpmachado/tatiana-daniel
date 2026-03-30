@@ -16,7 +16,7 @@ export default function Location() {
       />
       <div className="absolute inset-0 bg-[#3A3328]/30" />
       <div className="relative z-10 bg-[#EDE8DD]/92 px-10 py-12 text-center max-w-sm w-full mx-4">
-        <span className="label">Local</span>
+        <span className="label">Festa</span>
         <h2
           style={{
             fontFamily: "var(--font-serif)",
