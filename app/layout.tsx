@@ -38,6 +38,14 @@ export const metadata: Metadata = {
     description:
       "Estão cordialmente convidados para o nosso casamento em Pombal, Leiria.",
     type: "website",
+    url: "https://daniel-machado.github.io/tatiana-daniel",
+    images: [
+      {
+        url: "https://daniel-machado.github.io/tatiana-daniel/images/assets/cover.JPG",
+        width: 1200,
+        height: 630,
+      },
+    ],
   },
 };
 
@@ -47,7 +55,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt" className={`${cormorant.variable} ${jost.variable} ${abramo.variable}`}>
+    <html
+      lang="pt"
+      className={`${cormorant.variable} ${jost.variable} ${abramo.variable}`}
+    >
       <body>{children}</body>
     </html>
   );

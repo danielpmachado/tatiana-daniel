@@ -7,7 +7,7 @@ export default function Hero() {
       className="relative h-lvh min-h-[640px] flex items-end overflow-hidden bg-[#1a1814]"
     >
       <Image
-        src="/tatiana-daniel/images/assets/cover.jpg"
+        src="/tatiana-daniel/images/assets/cover.JPG"
         //src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&q=90"
         alt="Tatiana and Daniel"
         fill
