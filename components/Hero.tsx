@@ -7,11 +7,12 @@ export default function Hero() {
       className="relative h-lvh min-h-[640px] flex items-end overflow-hidden"
     >
       <Image
-        src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&q=90"
+        src="/tatiana-daniel/images/assets/cover.jpg"
+        //src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&q=90"
         alt="Tatiana and Daniel"
         fill
         priority
-        className="object-cover object-center"
+        className="object-cover object-center grayscale"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/30 to-black/75" />
       <div className="relative z-10 w-full px-10 md:px-20 hero-pb">

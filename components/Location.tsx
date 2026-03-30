@@ -55,7 +55,8 @@ export default function Location() {
           Boa Vista · Leiria · Portugal
         </p>
         <a
-          href="https://maps.google.com/?q=Pombal+Leiria+Portugal"
+          href="https://maps.app.goo.gl/8dKZyFYnGWNd6h1Q7"
+          // href="https://maps.google.com/?q=Pombal+Leiria+Portugal"
           target="_blank"
           rel="noopener noreferrer"
           style={{
@@ -65,10 +66,9 @@ export default function Location() {
             fontSize: "0.6rem",
             textTransform: "uppercase",
             letterSpacing: "0.2em",
-            color: "#8A7A55",
             transition: "all 0.2s",
           }}
-          className="hover:bg-[#8A7A55] hover:text-[#EDE8DD]"
+          className="text-muted hover:bg-muted hover:text-ivory"
         >
           Ver no Mapa
         </a>
