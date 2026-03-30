@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative h-lvh min-h-[640px] flex items-end overflow-hidden"
+      className="relative h-lvh min-h-[640px] flex items-end overflow-hidden bg-[#1a1814]"
     >
       <Image
         src="/tatiana-daniel/images/assets/cover.jpg"

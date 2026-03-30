@@ -26,6 +26,7 @@ const abramo = localFont({
 
 export const viewport = {
   viewportFit: "cover",
+  themeColor: "#1a1814",
 };
 
 export const metadata: Metadata = {
