@@ -24,7 +24,7 @@ export default function Hero() {
             color: "white",
             transformOrigin: "bottom left",
           }}
-          className="rotate-[-15deg] inline-block translate-x-20"
+          className="rotate-[-15deg] inline-block md:translate-x-20 translate-x-10"
         >
           <span style={{ fontSize: "clamp(4rem,11vw,8rem)", display: "block" }}>
             Tatiana

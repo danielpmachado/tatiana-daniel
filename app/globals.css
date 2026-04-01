@@ -45,6 +45,7 @@
   }
 }
 
+
 @layer base {
   html { scroll-behavior: smooth; }
   body { background-color: var(--color-ivory); color: var(--color-olive-dark); font-family: var(--font-sans); }

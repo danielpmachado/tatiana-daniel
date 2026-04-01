@@ -45,7 +45,7 @@ const events = [
   {
     time: "12:00",
     name: "Cerimónia na Igreja",
-    venue: "Capela dos Matos da Ranha",
+    venue: "Igreja dos Matos da Ranha",
     icon: (
       <svg viewBox="0 0 48 48" fill="none" className="w-12 h-12">
         <circle

@@ -82,9 +82,9 @@ export default function Breakfast() {
                 marginBottom: "1.5rem",
               }}
             >
-              Tatiana e as suas damas reúnem-se no salão da igreja para o
-              pequeno almoço, preparação e últimos momentos antes de caminhar
-              para o altar.
+              A casa dos pais da Tatiana fica a poucos metros da igreja. Assim,
+              os convidados da noiva irão reunir-se no salão da igreja para
+              tomar uns aperitivos antes da cerimónia.
             </p>
             <a
               href="https://maps.app.goo.gl/7ZozinCs4SX4ksHB7"
@@ -153,9 +153,8 @@ export default function Breakfast() {
                 marginBottom: "1.5rem",
               }}
             >
-              Daniel e os seus padrinhos reúnem-se em casa dos pais para o
-              pequeno almoço, preparação e os últimos momentos antes da
-              cerimónia.
+              Os convidados do noivo irão reunir-se em casa dos pais do Daniel
+              para o pequeno almoço e tirar algumas fotos antes da cerimónia.
             </p>
             <a
               href="https://maps.app.goo.gl/yeUKkb3UMFFQy7uA8"

@@ -7,7 +7,7 @@ export default function DressCode() {
         {/* Polaroids */}
         <div className="relative flex justify-center items-center h-72 md:h-80">
           <div
-            className="polaroid absolute left-6 top-0 w-44 z-10"
+            className="polaroid absolute left-6 top-0 w-44 z-20"
             style={{ transform: "rotate(-4deg)" }}
           >
             <div className="relative w-full aspect-[3/4] overflow-hidden bg-[#D4C9B0]">
@@ -22,7 +22,7 @@ export default function DressCode() {
             </div>
           </div>
           <div
-            className="polaroid absolute right-6 bottom-0 w-55 z-20"
+            className="polaroid absolute right-6 bottom-0 w-55 z-10"
             style={{ transform: "rotate(5deg)" }}
           >
             <div className="relative w-full aspect-[4/3] overflow-hidden bg-[#D4C9B0]">
@@ -50,7 +50,7 @@ export default function DressCode() {
               marginBottom: "1.25rem",
             }}
           >
-            Capela dos Matos da Ranha
+            Igreja dos Matos da Ranha
           </h2>
           <div className="section-divider" style={{ margin: "0 0 1.5rem" }} />
           <p
@@ -62,8 +62,10 @@ export default function DressCode() {
             }}
           >
             A cerimónia religiosa terá lugar na{" "}
-            <em style={{ fontFamily: "var(--font-serif)", fontStyle: "italic" }}>
-              Capela dos Matos da Ranha
+            <em
+              style={{ fontFamily: "var(--font-serif)", fontStyle: "italic" }}
+            >
+              Igreja dos Matos da Ranha
             </em>
             , um espaço íntimo e cheio de história, rodeado pela natureza da
             região de Leiria.
