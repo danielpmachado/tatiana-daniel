@@ -60,15 +60,13 @@ export default function SheSaidYes() {
               marginBottom: "1rem",
             }}
           >
-            Algumas histórias começam em silêncio — um olhar partilhado, uma
-            conversa inesperada, um momento que nenhum dos dois planeou mas que
-            nenhum dos dois vai alguma vez esquecer. A história de Tatiana e
-            Daniel é assim.
+            Após 7 anos de namoro, o Daniel decidiu pedir a mão da Tatiana. Não
+            havia dúvidas que a resposta seria sim.
           </p>
           <p style={{ fontSize: "0.85rem", lineHeight: 1.8, color: "#5C5248" }}>
-            Entre estações e pores do sol, entre dias comuns que pareciam
-            extraordinários, encontraram um no outro um lar. No dia 4 de Junho,
-            dirão isso diante de todos aqueles que amam.
+            Agora estamos a preparar o nosso dia especial para todos vós.
+            Queremos que seja um dia mágico para todos nós. Estamos muito
+            empolgados com o dia e com a vossa presença.
           </p>
         </div>
       </div>

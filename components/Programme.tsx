@@ -149,7 +149,7 @@ const events = [
   {
     time: "TBD",
     name: "Festa",
-    venue: "Música ao vivo & dança",
+    venue: "Música ao vivo & DJ",
     icon: (
       <svg viewBox="0 0 48 48" fill="none" className="w-12 h-12">
         <circle

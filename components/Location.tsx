@@ -7,14 +7,16 @@ export default function Location() {
       className="relative min-h-[500px] md:min-h-[560px] flex items-center justify-center overflow-hidden"
     >
       <Image
-        src="/tatiana-daniel/images/assets/Salao-Mayor-10-scaled.jpg"
-        //src="/tatiana-daniel/images/assets/Salao-Mayor-11.jpg"
-        //src="/tatiana-daniel/images/assets/quinta-dos-castanheiros-47.jpg"
-        //src="/tatiana-daniel/images/assets/quintadoscastanheiros-salao-mayor-8.jpg"
-        //src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=1920&q=90"
+        src="/tatiana-daniel/images/assets/mayor-2.jpg"
         alt="Quinta dos Castanheiros"
         fill
-        className="object-cover"
+        className="object-cover object-center md:hidden"
+      />
+      <Image
+        src="/tatiana-daniel/images/assets/mayor-scale.jpg"
+        alt="Quinta dos Castanheiros"
+        fill
+        className="object-cover object-center hidden md:block"
       />
       <div className="absolute inset-0 bg-[#3A3328]/30" />
       <div className="relative z-10 bg-[#EDE8DD]/92 px-10 py-12 text-center max-w-sm w-full mx-4">

@@ -6,7 +6,7 @@ export default function WithLove() {
       <div className="polaroid w-40" style={{ transform: "rotate(3deg)" }}>
         <div className="relative w-full aspect-[3/4] overflow-hidden bg-[#6B6B3A]">
           <Image
-            src="/tatiana-daniel/images/assets/sea.jpg"
+            src="/tatiana-daniel/images/assets/sea.JPG"
             alt="Tatiana and Daniel"
             fill
             className="object-cover"
@@ -47,7 +47,7 @@ export default function WithLove() {
       >
         <div className="relative w-full aspect-[3/4] overflow-hidden bg-[#6B6B3A]">
           <Image
-            src="/tatiana-daniel/images/assets/sea-2.jpg"
+            src="/tatiana-daniel/images/assets/sea-2.JPG"
             //src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=600&q=80"
             alt="Tatiana and Daniel"
             fill
