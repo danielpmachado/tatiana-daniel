@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function DressCode() {
   return (
-    <section className="bg-sand py-20 px-8 md:px-16">
+    <section className="bg-[#6B6B3A] py-20 px-8 md:px-16">
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         {/* Polaroids */}
         <div className="relative flex justify-center items-center h-72 md:h-80">
@@ -31,39 +31,51 @@ export default function DressCode() {
                 //src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80"
                 alt="Venue style"
                 fill
-                className="object-cover  opacity-90"
+                className="object-cover  opacity-80"
               />
             </div>
           </div>
         </div>
         {/* Text */}
         <div>
-          <span className="label">Cerimónia Religiosa</span>
+          <span className="label" style={{ color: "rgba(237,232,221,0.5)" }}>
+            Cerimónia Religiosa
+          </span>
           <h2
             style={{
               fontFamily: "var(--font-serif)",
               fontStyle: "italic",
               fontWeight: 300,
               fontSize: "clamp(2.5rem,5vw,3.5rem)",
-              color: "#3A3328",
+              color: "#EDE8DD",
               lineHeight: 1,
               marginBottom: "1.25rem",
             }}
           >
             Igreja dos Matos da Ranha
           </h2>
-          <div className="section-divider" style={{ margin: "0 0 1.5rem" }} />
+          <div
+            className="section-divider"
+            style={{
+              margin: "0 0 1.5rem",
+              background: "rgba(237,232,221,0.25)",
+            }}
+          />
           <p
             style={{
               fontSize: "0.85rem",
               lineHeight: 1.8,
-              color: "#5C5248",
+              color: "rgba(237,232,221,0.7)",
               marginBottom: "0.75rem",
             }}
           >
             A cerimónia religiosa terá lugar na{" "}
             <em
-              style={{ fontFamily: "var(--font-serif)", fontStyle: "italic" }}
+              style={{
+                fontFamily: "var(--font-serif)",
+                fontStyle: "italic",
+                color: "#EDE8DD",
+              }}
             >
               Igreja dos Matos da Ranha
             </em>
@@ -74,7 +86,7 @@ export default function DressCode() {
             style={{
               fontSize: "0.85rem",
               lineHeight: 1.8,
-              color: "#5C5248",
+              color: "rgba(237,232,221,0.7)",
               marginBottom: "1.5rem",
             }}
           >
@@ -87,14 +99,15 @@ export default function DressCode() {
             rel="noopener noreferrer"
             style={{
               display: "inline-block",
-              border: "1px solid #8A7A55",
+              border: "1px solid rgba(237,232,221,0.4)",
               padding: "0.6rem 1.75rem",
               fontSize: "0.6rem",
               textTransform: "uppercase",
               letterSpacing: "0.2em",
+              color: "rgba(237,232,221,0.7)",
               transition: "all 0.2s",
             }}
-            className="text-muted hover:bg-muted hover:text-ivory"
+            className="hover:bg-ivory/15"
           >
             Ver no Mapa
           </a>
