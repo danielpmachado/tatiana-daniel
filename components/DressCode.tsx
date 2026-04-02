@@ -17,7 +17,7 @@ export default function DressCode() {
                 alt="Wedding style"
                 fill
                 //className="object-cover"
-                className="object-cover brightness-140 opacity-90"
+                className="object-cover brightness-140 opacity-90 grayscale"
               />
             </div>
           </div>
@@ -31,7 +31,7 @@ export default function DressCode() {
                 //src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80"
                 alt="Venue style"
                 fill
-                className="object-cover  opacity-80"
+                className="object-cover  opacity-80 grayscale"
               />
             </div>
           </div>
